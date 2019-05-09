@@ -1,0 +1,2 @@
+# OCRSDKTestTool
+OCR SDK TEST TOOL
