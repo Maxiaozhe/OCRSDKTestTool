@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CC001" xml:space="preserve">
+    <value>CC001：登録してもよろしいですか。</value>
+  </data>
+  <data name="CC002" xml:space="preserve">
+    <value>CC002：編集中のデータは破棄されますが、処理を続けてよろしいですか。</value>
+  </data>
+  <data name="CC003" xml:space="preserve">
+    <value>CC003：選択しているデータを削除してもよろしいですか。</value>
+  </data>
+  <data name="CC004" xml:space="preserve">
+    <value>CC004：編集中の定義データを削除してもよろしいですか。</value>
+  </data>
+  <data name="CC005" xml:space="preserve">
+    <value>CC005：当該定義を使った作業中のデータが存在するため、保存・登録ができない可能性があります。保存・登録するためには、この定義が使用されている作業中のデータの処理を全て完了してください。編集画面を表示してよろしいですか。</value>
+  </data>
+  <data name="CC006" xml:space="preserve">
+    <value>CC006：保存してもよろしいですか。</value>
+  </data>
+  <data name="CC021" xml:space="preserve">
+    <value>CC021：編集中のデータ（ユーザ定義画面、書式設定画面での編集中のデータも含む）は破棄されますが、キャンセルしてよろしいですか。</value>
+  </data>
+  <data name="CC024" xml:space="preserve">
+    <value>CC024：表示中の認識結果データを削除してもよろしいですか。</value>
+  </data>
+  <data name="CC025" xml:space="preserve">
+    <value>CC025：当該定義を使った保存済みのデータが存在しています。登録する際には、該当する保存済みのデータは削除されます。よろしいですか。</value>
+  </data>
+  <data name="CC026" xml:space="preserve">
+    <value>CC026：当該定義を使った保存済みのデータが存在しています。保存する際には、該当する保存済みのデータは削除されます。よろしいですか。</value>
+  </data>
+  <data name="CC027" xml:space="preserve">
+    <value>CC027：この操作を行うと、この項目に紐づくアクション設定が削除されます。よろしいですか。</value>
+  </data>
+  <data name="CC028" xml:space="preserve">
+    <value>CC028：当該定義を使った保存済みのデータが存在しています。登録または保存する際には、該当する保存済みのデータは削除する必要があります。編集画面を表示してよろしいですか。</value>
+  </data>
+  <data name="CC029" xml:space="preserve">
+    <value>CC029：当該定義を使った保存済みのデータが存在しています。登録する際には、該当する保存済みのデータは削除する必要があります。編集画面を表示してよろしいですか。</value>
+  </data>
+  <data name="CC031" xml:space="preserve">
+    <value>CC031：この編集を行う場合、設定済の出力項目設計・ユーザ定義・書式設定情報は削除されます。よろしいですか。</value>
+  </data>
+  <data name="CC032" xml:space="preserve">
+    <value>CC032：削除しようとしているテンプレートが「一覧表示項目」プルダウンにて選択されています。「一覧表示項目」プルダウンも削除してよろしいですか。</value>
+  </data>
+  <data name="CO018" xml:space="preserve">
+    <value>CO018：エラー項目がありますが、保存してよろしいですか。</value>
+  </data>
+  <data name="CP001" xml:space="preserve">
+    <value>CP001：サービスを起動しました。</value>
+  </data>
+  <data name="CP002" xml:space="preserve">
+    <value>CP002：サービスを停止しました。</value>
+  </data>
+  <data name="CP003" xml:space="preserve">
+    <value>CP003：サービスが起動されていませんが、終了してよろしいですか。</value>
+  </data>
+  <data name="CP004" xml:space="preserve">
+    <value>CP004：帳票認識が出来なくなる可能性があります。選択しているデータを削除しますか。</value>
+  </data>
+  <data name="CP005" xml:space="preserve">
+    <value>CP005：認識結果修正画面生成されません。入力データを一時的に保存してもよろしいですか。</value>
+  </data>
+  <data name="CP006" xml:space="preserve">
+    <value>CP006：項目情報が設定されていないフレームがありますが、よろしいですか。</value>
+  </data>
+  <data name="CP008" xml:space="preserve">
+    <value>CP008：帳票選択が変更されたため、出力設定の「処理設定」が”強制的に認識する”から”処理しない”に変更されます。変更したくない場合は、［キャンセル］ボタンクリック後、認識ページ番号が設定されていない帳票定義を選択し直してください。変更してよろしいですか。</value>
+  </data>
+  <data name="CP009" xml:space="preserve">
+    <value>CP009：パスワードの変更に成功しました。</value>
+  </data>
+  <data name="CP010" xml:space="preserve">
+    <value>CP010：確認対象の認識結果は存在しません。</value>
+  </data>
+  <data name="CP011" xml:space="preserve">
+    <value>CP011：帳票認識に失敗しました。</value>
+  </data>
+  <data name="CP012" xml:space="preserve">
+    <value>CP012：一時保存していない編集中のデータは破棄されますが、ログアウトしてよろしいですか。</value>
+  </data>
+  <data name="CP013" xml:space="preserve">
+    <value>CP013：認識結果の一時保存に成功しました。</value>
+  </data>
+  <data name="CP014" xml:space="preserve">
+    <value>CP014：一時保存していない編集中のデータは破棄されますが、認識結果修正アプリケーションを終了してよろしいですか。</value>
+  </data>
+  <data name="CP015" xml:space="preserve">
+    <value>CP015：選択されたテンプレートを削除します。よろしいですか。</value>
+  </data>
+  <data name="CP016" xml:space="preserve">
+    <value>CP016：選択テンプレートが解除されたため、出力項目設計・ユーザ定義は削除されました。</value>
+  </data>
+  <data name="CP017" xml:space="preserve">
+    <value>CP017：選択テンプレートに削除されたテンプレートが選択されています。</value>
+  </data>
+  <data name="CP018" xml:space="preserve">
+    <value>CP018：切り替え前に設定されていた出力項目設計・ユーザ定義・ユーザ定義の書式設定は削除されます。</value>
+  </data>
+  <data name="CP019" xml:space="preserve">
+    <value>CP019：確認中の認識結果を修正しようとしていますが、よろしいですか。</value>
+  </data>
+  <data name="CP021" xml:space="preserve">
+    <value>CP021：この帳票で認識を行います。よろしいですか。</value>
+  </data>
+  <data name="CP022" xml:space="preserve">
+    <value>CP022：認識処理を開始しました。処理完了後、再度結果修正画面で確認できます。</value>
+  </data>
+  <data name="CP023" xml:space="preserve">
+    <value>CP023：現在表示中の認識結果データをどうしますか。</value>
+  </data>
+  <data name="CP025" xml:space="preserve">
+    <value>CP025：表示条件の保存が完了しました。</value>
+  </data>
+  <data name="CP026" xml:space="preserve">
+    <value>CP026：ログアウトしてよろしいですか。</value>
+  </data>
+  <data name="CP027" xml:space="preserve">
+    <value>CP027：認識結果アプリケーションを終了してよろしいですか。</value>
+  </data>
+  <data name="CP028" xml:space="preserve">
+    <value>CP028：選択されたグループ項目にてグループ化を解除します。よろしいですか。</value>
+  </data>
+  <data name="CP030" xml:space="preserve">
+    <value>CP030：すべてのテンプレート項目をチェックリスト項目として作成します。すでに作成されているチェックリスト項目はすべて削除されます。よろしいですか。</value>
+  </data>
+  <data name="CP031" xml:space="preserve">
+    <value>CP031：チェックリスト項目として設定済のテンプレート項目が修正または削除されました。登録する場合、該当するチェックリスト項目と、そのチェックリスト項目に紐付く以下設定もすべて削除されます。</value>
+  </data>
+  <data name="CP032" xml:space="preserve">
+    <value>CP032：画像辞書ファイルが存在しないため、編集時に「特徴点抽出」を実施する必要があります。編集画面を表示してよろしいですか。</value>
+  </data>
+  <data name="CP033" xml:space="preserve">
+    <value>CP033：タブ順に不正があるため、自動で振りなおします。よろしいですか。
+※現在あるタブ順の最大値+10ずつ振りなおされます。</value>
+  </data>
+  <data name="CP037" xml:space="preserve">
+    <value>CP037：帳票定義にて設定済のチェックリスト項目が修正または削除されました。登録する場合、そのチェックリスト項目に紐付く以下設定もすべて削除されます。よろしいですか。</value>
+  </data>
+  <data name="CP038" xml:space="preserve">
+    <value>CP038：帳票定義にて設定済のチェックリスト項目が修正または削除されました。保存する場合、そのチェックリスト項目に紐付く以下設定もすべて削除されます。よろしいですか。</value>
+  </data>
+  <data name="CP039" xml:space="preserve">
+    <value>CP039：選択した帳票定義を有効状態で登録してもよろしいですか。</value>
+  </data>
+  <data name="CP040" xml:space="preserve">
+    <value>CP040：選択した帳票定義を無効状態で登録してもよろしいですか。</value>
+  </data>
+  <data name="CP041" xml:space="preserve">
+    <value>CP041：選択した範囲内にあるすでに作成されているフレームはすべて削除されます。よろしいですか。</value>
+  </data>
+  <data name="CP042" xml:space="preserve">
+    <value>CP042：現在表示中のタブの項目一覧の内容をすべて出力項目に追加します。よろしいですか。</value>
+  </data>
+  <data name="DELETEDDATA" xml:space="preserve">
+    <value />
+    <comment>削除予定</comment>
+  </data>
+  <data name="EC001" xml:space="preserve">
+    <value>EC001：必須項目の入力・選択をしてください。</value>
+  </data>
+  <data name="EC002" xml:space="preserve">
+    <value>EC002：正しい形式で入力してください。</value>
+  </data>
+  <data name="EC003" xml:space="preserve">
+    <value>EC003：１つ以上の行を入力・選択してください。</value>
+  </data>
+  <data name="EC004" xml:space="preserve">
+    <value>EC004：既にデータが削除されています。</value>
+  </data>
+  <data name="EC005" xml:space="preserve">
+    <value>EC005：当該定義を使った作業中のデータが存在するため、削除できません。</value>
+  </data>
+  <data name="EC006" xml:space="preserve">
+    <value>EC006：ログイン中のユーザ定義が削除されたため、登録処理を継続できません。編集中のデータを破棄してログアウトします。</value>
+  </data>
+  <data name="EC010" xml:space="preserve">
+    <value>EC010：ログイン中のユーザ定義が削除されたため、処理を継続できません。ログアウトします。</value>
+  </data>
+  <data name="EC011" xml:space="preserve">
+    <value>EC011：データベースのアクセスに失敗したため、処理を継続できません。アプリケーションを終了します。</value>
+  </data>
+  <data name="EC012" xml:space="preserve">
+    <value>EC012：帳票画像の読込みに失敗しました。</value>
+  </data>
+  <data name="EC013" xml:space="preserve">
+    <value>EC013：システム辞書ファイルが存在しないため、アプリケーションの再インストールが必要です。アプリケーションを終了します。</value>
+  </data>
+  <data name="EC014" xml:space="preserve">
+    <value>EC014：当該定義を使った作業中のデータが存在するため、保存・登録できません。</value>
+  </data>
+  <data name="EC015" xml:space="preserve">
+    <value>EC015：当該定義を使った作業中のデータが存在するため、無効化できません。</value>
+  </data>
+  <data name="EC016" xml:space="preserve">
+    <value>EC016：{0}が最大件数を超えています。管理者に連絡してください。</value>
+  </data>
+  <data name="EC017" xml:space="preserve">
+    <value>EC017：予期せぬエラーが発生しました。管理者に連絡してください。アプリケーションを終了します。</value>
+  </data>
+  <data name="EC018" xml:space="preserve">
+    <value>EC018：セッション情報が不正です。ログアウトしてください。</value>
+  </data>
+  <data name="EC019" xml:space="preserve">
+    <value>EC019：システムエラーが発生しました。&lt;br/&gt;大変申し訳ありませんが、システム管理者までご連絡ください。</value>
+  </data>
+  <data name="EC020" xml:space="preserve">
+    <value>EC020：アプリケーションエラーが発生しました。{0}{1}</value>
+  </data>
+  <data name="EP001" xml:space="preserve">
+    <value>EP001：既にアプリケーションが起動しています。</value>
+  </data>
+  <data name="EP002" xml:space="preserve">
+    <value>EP002：強制認識する場合、１件のテンプレート設計に紐づく単一帳票の帳票定義データしか選択できません。</value>
+  </data>
+  <data name="EP003" xml:space="preserve">
+    <value>EP003：項目種別に対する必須項目の入力・選択をしてください。</value>
+  </data>
+  <data name="EP004" xml:space="preserve">
+    <value>EP004：範囲の指定を正しく入力してください。</value>
+  </data>
+  <data name="EP005" xml:space="preserve">
+    <value>EP005：変換元文字・変換先文字を正しく入力してください。</value>
+  </data>
+  <data name="EP006" xml:space="preserve">
+    <value>EP006：変換元文字を重複しないように入力してください。</value>
+  </data>
+  <data name="EP008" xml:space="preserve">
+    <value>EP008：構文を正しく入力してください。</value>
+  </data>
+  <data name="EP009" xml:space="preserve">
+    <value>EP009：当該データは帳票定義で登録されているため、削除できません。</value>
+  </data>
+  <data name="EP011" xml:space="preserve">
+    <value>EP011：「帳票認識ログ：出力設定」グループボックスのフォルダパスにアクセスできないため、登録できません。</value>
+  </data>
+  <data name="EP012" xml:space="preserve">
+    <value>EP012：入力されているフォルダは他の監視フォルダデータで利用されています。</value>
+  </data>
+  <data name="EP013" xml:space="preserve">
+    <value>EP013：「操作ログ：出力設定」グループボックスのフォルダパスにアクセスできないため、登録できません。</value>
+  </data>
+  <data name="EP014" xml:space="preserve">
+    <value>EP014：「選択済テンプレート」内のテンプレートが重複しないように入力してください。</value>
+  </data>
+  <data name="EP015" xml:space="preserve">
+    <value>EP015：「選択済テンプレート」内の「頁」列の値が重複しないように、すべての行に入力してください。</value>
+  </data>
+  <data name="EP016" xml:space="preserve">
+    <value>EP016：帳票識別に使用可能な項目は３つまでです。</value>
+  </data>
+  <data name="EP017" xml:space="preserve">
+    <value>EP017：選択している帳票定義は、監視フォルダで登録されているため削除できません。</value>
+  </data>
+  <data name="EP020" xml:space="preserve">
+    <value>EP020：入力画像出力フォルダパスにアクセスできません。</value>
+  </data>
+  <data name="EP025" xml:space="preserve">
+    <value>EP025：出力先フォルダパスにアクセスできません。</value>
+  </data>
+  <data name="EP027" xml:space="preserve">
+    <value>EP027：複数枚の帳票認識を定義している帳票定義データは複数件選択出来ません。</value>
+  </data>
+  <data name="EP028" xml:space="preserve">
+    <value>EP028：チェックリスト設計データが存在しないため削除出来ません。</value>
+  </data>
+  <data name="EP029" xml:space="preserve">
+    <value>EP029："SELECT"で始まる半角英字しか入力出来ません。</value>
+  </data>
+  <data name="EP030" xml:space="preserve">
+    <value>EP030：入力されているログインIDは既に使用されているため登録出来ません。</value>
+  </data>
+  <data name="EP032" xml:space="preserve">
+    <value>EP032：ユーザIDは必須入力です。</value>
+  </data>
+  <data name="EP033" xml:space="preserve">
+    <value>EP033：パスワードは必須入力です。</value>
+  </data>
+  <data name="EP034" xml:space="preserve">
+    <value>EP034：認証に失敗しました。ユーザIDが不正です。</value>
+  </data>
+  <data name="EP035" xml:space="preserve">
+    <value>EP035：認証に失敗しました。パスワードが不正です。</value>
+  </data>
+  <data name="EP036" xml:space="preserve">
+    <value>EP036：パスワードが90日以上変更されていません。パスワードを変更してください。</value>
+  </data>
+  <data name="EP037" xml:space="preserve">
+    <value>EP037：新しいパスワードは必須入力です。</value>
+  </data>
+  <data name="EP038" xml:space="preserve">
+    <value>EP038：現在のパスワードと同じものを設定することは出来ません。</value>
+  </data>
+  <data name="EP039" xml:space="preserve">
+    <value>EP039：新しいパスワードと確認用のパスワードが一致していません。</value>
+  </data>
+  <data name="EP041" xml:space="preserve">
+    <value>EP041：存在しないデータソース名が設定されています。</value>
+  </data>
+  <data name="EP042" xml:space="preserve">
+    <value>EP042：以下のグループIDのアクションを再設定してください。
+{0}</value>
+  </data>
+  <data name="EP045" xml:space="preserve">
+    <value>EP045：画像辞書ファイルが存在しません。</value>
+  </data>
+  <data name="EP046" xml:space="preserve">
+    <value>EP046：チェックリスト設計が更新されたため、帳票定義設計の再登録が必要です。［編集］ボタンより登録処理を行ってください。</value>
+  </data>
+  <data name="EP047" xml:space="preserve">
+    <value>EP047：帳票イメージ画像ファイルが存在しません。</value>
+  </data>
+  <data name="EP048" xml:space="preserve">
+    <value>EP048：出力項目として設定したシステム項目または表示グループ項目にて、書式の設定が一致していません。</value>
+  </data>
+  <data name="EP050" xml:space="preserve">
+    <value>EP050：マスタ参照で設定したテーブルが存在しません。</value>
+  </data>
+  <data name="EP051" xml:space="preserve">
+    <value>EP051：マスタ参照で設定したテーブル項目が存在しません。</value>
+  </data>
+  <data name="EP052" xml:space="preserve">
+    <value>EP052：{0}の帳票定義にてエラーがあるため、認識結果修正にて使用できません。ログインしてよろしいですか。</value>
+  </data>
+  <data name="EP053" xml:space="preserve">
+    <value>EP053：当該データは帳票定義またはチェックリストで登録されているため、削除できません。</value>
+  </data>
+  <data name="EP054" xml:space="preserve">
+    <value>EP054：テンプレートの作成に失敗しました。</value>
+  </data>
+  <data name="EP055" xml:space="preserve">
+    <value>EP055：帳票定義にて、削除されたテンプレートが設定されています。</value>
+  </data>
+  <data name="EP056" xml:space="preserve">
+    <value>EP056：一覧表示項目にて、削除されたテンプレートまたは表示グループ項目が設定されています。</value>
+  </data>
+  <data name="EP057" xml:space="preserve">
+    <value>EP057：帳票定義（テンプレート選択）にエラーが存在します。</value>
+  </data>
+  <data name="EP058" xml:space="preserve">
+    <value>EP058：帳票定義（出力設定）にエラーが存在します。</value>
+  </data>
+  <data name="EP060" xml:space="preserve">
+    <value>EP060：出力項目にて、削除されたテンプレートまたは表示グループ項目（一部のテンプレート項目が削除された場合も含む）が選択されています。</value>
+  </data>
+  <data name="EP061" xml:space="preserve">
+    <value>EP061：出力項目として設定されたユーザ定義項目にて、削除されたテンプレートまたは表示グループ項目（一部のテンプレート項目が削除された場合も含む）が選択されています。</value>
+  </data>
+  <data name="EP062" xml:space="preserve">
+    <value>EP062：削除されている帳票定義が選択されています。</value>
+  </data>
+  <data name="EP063" xml:space="preserve">
+    <value>EP063：表示条件に誤りがあります。赤枠の箇所を確認してください。</value>
+  </data>
+  <data name="EP065" xml:space="preserve">
+    <value>EP065：保存済みの認識結果を修正することはできません。</value>
+  </data>
+  <data name="EP066" xml:space="preserve">
+    <value>EP066：対象の認識結果を選択してください。</value>
+  </data>
+  <data name="EP067" xml:space="preserve">
+    <value>EP067：確認待ち以外の認識結果を削除することはできません。</value>
+  </data>
+  <data name="EP068" xml:space="preserve">
+    <value>EP068：エラー項目が存在するため、登録できません。</value>
+  </data>
+  <data name="EP071" xml:space="preserve">
+    <value>EP071：出力フォーマット設定にエラーが存在します。</value>
+  </data>
+  <data name="EP072" xml:space="preserve">
+    <value>EP072：出力項目設定にエラーが存在します。</value>
+  </data>
+  <data name="EP073" xml:space="preserve">
+    <value>EP073：「選択済テンプレート」グリッドビューにてテンプレートが複数選択されているため、単数枚帳票に切り替えられません。</value>
+  </data>
+  <data name="EP075" xml:space="preserve">
+    <value>EP075：１つ以上の帳票定義を選択してください。</value>
+  </data>
+  <data name="EP076" xml:space="preserve">
+    <value>EP076：全ての帳票定義にてエラーがあるため、認識結果修正にて使用できません。ログインしてよろしいですか。</value>
+  </data>
+  <data name="EP077" xml:space="preserve">
+    <value>EP077：マスタ参照、または、論理演算が設定された項目が変更されているため、画面の更新が必要です。「再検査」ボタンクリック後に再度実行してください。</value>
+  </data>
+  <data name="EP078" xml:space="preserve">
+    <value>EP078：保存済みの認識結果を削除することはできません。</value>
+  </data>
+  <data name="EP079" xml:space="preserve">
+    <value>EP079：帳票を選択してください。</value>
+  </data>
+  <data name="EP081" xml:space="preserve">
+    <value>EP081：監視フォルダパスにアクセスできません。</value>
+  </data>
+  <data name="EP082" xml:space="preserve">
+    <value>EP082：帳票出力設定のフォルダパスにアクセスできません。</value>
+  </data>
+  <data name="EP083" xml:space="preserve">
+    <value>EP083：認識結果データが削除されたか、作業ステータスが「保存済み」であるため、登録できません。</value>
+  </data>
+  <data name="EP084" xml:space="preserve">
+    <value>EP084：数値形式で入力してください。</value>
+  </data>
+  <data name="EP085" xml:space="preserve">
+    <value>EP085：日付形式で入力してください。</value>
+  </data>
+  <data name="EP086" xml:space="preserve">
+    <value>EP086：時刻形式で入力してください。</value>
+  </data>
+  <data name="EP087" xml:space="preserve">
+    <value>EP087：マークの数が指定された範囲外です。</value>
+  </data>
+  <data name="EP088" xml:space="preserve">
+    <value>EP088：入力桁数が不正です。</value>
+  </data>
+  <data name="EP089" xml:space="preserve">
+    <value>EP089：チェックサム結果が不正です。</value>
+  </data>
+  <data name="EP090" xml:space="preserve">
+    <value>EP090：マスタ参照結果が不正です。</value>
+  </data>
+  <data name="EP091" xml:space="preserve">
+    <value>EP091：論理演算結果が不正です。</value>
+  </data>
+  <data name="EP092" xml:space="preserve">
+    <value>EP092：IDまたはパスワードが間違っているか、タイムアウトが発生したため、DBに接続できません。システム管理者にお問い合わせください。</value>
+  </data>
+  <data name="EP093" xml:space="preserve">
+    <value>EP093：知識辞書ファイルが存在しません。</value>
+  </data>
+  <data name="EP094" xml:space="preserve">
+    <value>EP094：帳票定義にて、1つ以上の出力項目を設定してください。</value>
+  </data>
+  <data name="EP095" xml:space="preserve">
+    <value>EP095：帳票定義で設定している各テンプレートにて、1つ以上の出力項目を設定してください。</value>
+  </data>
+  <data name="EP096" xml:space="preserve">
+    <value>EP096：出力項目にて、削除されたユーザ定義項目が選択されています。</value>
+  </data>
+  <data name="EP097" xml:space="preserve">
+    <value>EP097：テンプレート設計が更新されたため、チェックリスト設計と帳票定義設計の再登録が必要です。以下のテンプレート設計に紐付くチェックリスト設計の登録処理を実施後、再度帳票定義を開始してください。</value>
+  </data>
+  <data name="EP098" xml:space="preserve">
+    <value>EP098：項目数が最大数に達したため、これ以上項目を追加することはできません。　　←。を追加</value>
+  </data>
+  <data name="EP099" xml:space="preserve">
+    <value>EP099：ファイル出力に失敗したため、作業ステータスを「一時保存」として登録しました。管理者に連絡してください。シーケンス番号は{0}です。</value>
+  </data>
+  <data name="EP101" xml:space="preserve">
+    <value>EP101：対象の行を選択してください。</value>
+  </data>
+  <data name="EP102" xml:space="preserve">
+    <value>EP102：対象のテンプレートが削除されています。</value>
+  </data>
+  <data name="EP103" xml:space="preserve">
+    <value>EP103：削除されたチェックリストグループ項目（一部のテンプレート項目が削除された場合も含む）が選択されています。</value>
+  </data>
+  <data name="EP104" xml:space="preserve">
+    <value>EP104：削除されたテンプレートまたは表示グループ項目（一部のテンプレート項目が削除された場合も含む）が選択されています。</value>
+  </data>
+  <data name="EP105" xml:space="preserve">
+    <value>EP105：入力された数値の範囲が正しくありません({0}-{1})。</value>
+  </data>
+  <data name="EP107" xml:space="preserve">
+    <value>EP107：文字種別が設定されていません。</value>
+  </data>
+  <data name="EP108" xml:space="preserve">
+    <value>EP108：認識種別：{0}は指定されていません。</value>
+  </data>
+  <data name="EP109" xml:space="preserve">
+    <value>EP109：認識フォームには[9XxKJ*]のいずれかを指定してください。</value>
+  </data>
+  <data name="EP110" xml:space="preserve">
+    <value>EP110：認識フォームに[{0}]は指定できません。</value>
+  </data>
+  <data name="EP112" xml:space="preserve">
+    <value>EP112：知識辞書が読み込めません。</value>
+  </data>
+  <data name="EP113" xml:space="preserve">
+    <value>EP113：設定されていた{0}が削除されています。</value>
+  </data>
+  <data name="EP114" xml:space="preserve">
+    <value>EP114：画像辞書の作成に失敗しました。</value>
+  </data>
+  <data name="EP115" xml:space="preserve">
+    <value>EP115：出力文字列の長さが最大出力桁数を超えています。</value>
+  </data>
+  <data name="EP116" xml:space="preserve">
+    <value>EP116：変換ID重複のため登録できません。</value>
+  </data>
+  <data name="EP117" xml:space="preserve">
+    <value>EP117：変換ID使用中のため削除できません。</value>
+  </data>
+  <data name="EP118" xml:space="preserve">
+    <value>EP118：画像辞書ファイルが不正な状態のため、処理を継続できません。アプリケーションを終了します。</value>
+  </data>
+  <data name="EP119" xml:space="preserve">
+    <value>EP119：{0}は既にマスタ参照または知識処理が設定されています。</value>
+  </data>
+  <data name="EP120" xml:space="preserve">
+    <value>EP120：帳票認識ログファイルの削除に失敗しました。管理者に連絡してください。ファイル名は{0}です。</value>
+  </data>
+  <data name="EP121" xml:space="preserve">
+    <value>EP121：操作ログファイルの削除に失敗しました。</value>
+  </data>
+  <data name="EP122" xml:space="preserve">
+    <value>EP122：DBデータ/ログ削除処理にエラーが発生しました。</value>
+  </data>
+  <data name="EP123" xml:space="preserve">
+    <value>EP123：保存済みデータの削除に失敗しました。</value>
+  </data>
+  <data name="EP124" xml:space="preserve">
+    <value>EP124：直接入力テキストボックス内にOCR項目またはユーザ置換項目以外のチェックリストグループIDが含まれています。
+{0}</value>
+  </data>
+  <data name="EP125" xml:space="preserve">
+    <value>EP125：同一のグループ項目IDが設定されています。</value>
+  </data>
+  <data name="EP126" xml:space="preserve">
+    <value>EP126：直接入力の参照項目はアクション設定対象のチェックリストグループIDを指定してください。</value>
+  </data>
+  <data name="EP127" xml:space="preserve">
+    <value>EP127：１つ以上のフレームを作成してください。</value>
+  </data>
+  <data name="EP128" xml:space="preserve">
+    <value>EP128：「特徴点抽出」を実施してください。</value>
+  </data>
+  <data name="EP129" xml:space="preserve">
+    <value>EP129：帳票画像ファイルが存在しないため、処理を継続できません。アプリケーションを終了します。</value>
+  </data>
+  <data name="EP130" xml:space="preserve">
+    <value>EP130：定義式内に存在しない、または項目種別がOCR項目・ユーザ置換項目のデータ型が文字ではないグループIDが設定されています。
+{0}</value>
+  </data>
+  <data name="EP131" xml:space="preserve">
+    <value>EP131：定義式内に扱えない演算子または文字が含まれています。</value>
+  </data>
+  <data name="EP132" xml:space="preserve">
+    <value>EP132：定義式内に－（減算演算子）が複数含まれています。
+日付形式・日付計算の妥当性検査・時間形式の検査・時間計算の妥当性検査　の場合、減算演算子を複数使うことは出来ません。</value>
+  </data>
+  <data name="EP133" xml:space="preserve">
+    <value>EP133：定義式内の桁数が不正です。
+{0}</value>
+  </data>
+  <data name="EP134" xml:space="preserve">
+    <value>EP134：定義式の構文に誤りがあります。演算を行うことができません。</value>
+  </data>
+  <data name="EP135" xml:space="preserve">
+    <value>EP135：結果式内に存在しない、または項目種別がOCR項目・ユーザ置換項目のデータ型が文字ではないグループIDが設定されています。
+{0}</value>
+  </data>
+  <data name="EP136" xml:space="preserve">
+    <value>EP136：結果式の構文に誤りがあります。演算を行うことができません。</value>
+  </data>
+  <data name="EP137" xml:space="preserve">
+    <value>EP137：サービスの起動に失敗しました。</value>
+  </data>
+  <data name="EP138" xml:space="preserve">
+    <value>EP138：サービスの停止に失敗しました。</value>
+  </data>
+  <data name="EP139" xml:space="preserve">
+    <value>EP139：認識処理の開始に失敗しました。</value>
+  </data>
+  <data name="EP140" xml:space="preserve">
+    <value>EP140：出力を行うデータ件数が、最大件数を超えています。</value>
+  </data>
+  <data name="EP141" xml:space="preserve">
+    <value>EP141：出力を行うデータ件数が、0件です。</value>
+  </data>
+  <data name="EP142" xml:space="preserve">
+    <value>EP142：CSV出力に失敗しました。　←。を追加</value>
+  </data>
+  <data name="EP143" xml:space="preserve">
+    <value>EP143：サービスが正しくインストールされていません。サービスを開始できません。</value>
+  </data>
+  <data name="EP144" xml:space="preserve">
+    <value>EP144：サービスの使用期限が切れています。サービスを開始できません。</value>
+  </data>
+  <data name="EP145" xml:space="preserve">
+    <value>EP145：指定されたの認識ページが帳票画像に存在しません。{0}は帳票識別に失敗しました。</value>
+  </data>
+  <data name="EP146" xml:space="preserve">
+    <value>EP146：帳票画像とマッチするテンプレートが存在しません。{0}は帳票識別に失敗しました。</value>
+  </data>
+  <data name="EP147" xml:space="preserve">
+    <value>EP147：入力値が設定された範囲外です。</value>
+  </data>
+  <data name="EP148" xml:space="preserve">
+    <value>EP148：定義式内に入力が不完全な式があります。</value>
+  </data>
+  <data name="EP149" xml:space="preserve">
+    <value>EP149：参照テーブルまたは項目が存在しません。条件をクリアします。</value>
+  </data>
+  <data name="EP150" xml:space="preserve">
+    <value>EP150：指定した知識辞書が存在しません。条件をクリアします。</value>
+  </data>
+  <data name="EP151" xml:space="preserve">
+    <value>EP151：利用できない帳票定義が存在します。{0}</value>
+  </data>
+  <data name="EP152" xml:space="preserve">
+    <value>EP152：{0}は帳票識別に失敗しました。</value>
+  </data>
+  <data name="EP153" xml:space="preserve">
+    <value>EP153：ユーザ定義使用中のため削除できません。</value>
+  </data>
+  <data name="EP154" xml:space="preserve">
+    <value>EP154：最大出力桁数は出力文字列よりも大きな桁数を設定してください。</value>
+  </data>
+  <data name="EP155" xml:space="preserve">
+    <value>EP155：項目数が最大数に達してしまうため、帳票イメージコピー機能は使用できません。</value>
+  </data>
+  <data name="EP156" xml:space="preserve">
+    <value>EP156 : 帳票出力先フォルダパスにアクセスできません。</value>
+  </data>
+  <data name="EP157" xml:space="preserve">
+    <value>EP157 : 利用できる帳票定義が0件のため処理を終了します。</value>
+  </data>
+  <data name="EP158" xml:space="preserve">
+    <value>EP158：監視フォルダの入力画像を削除できませんでした。</value>
+  </data>
+  <data name="EP159" xml:space="preserve">
+    <value>EP159：ページが未指定の認識ページに別テンプレートの表示グループを含むユーザ定義項目を設定することはできません。
+認識ページ：{0}
+ユーザ定義ID：{1}</value>
+  </data>
+  <data name="EP160" xml:space="preserve">
+    <value>EP160：通貨記号のいずれかを指定してください。</value>
+  </data>
+  <data name="EP161" xml:space="preserve">
+    <value>EP161：ファイル名に使用できない文字「{0}」が使われています。</value>
+  </data>
+  <data name="EP162" xml:space="preserve">
+    <value>結果式内に扱えない演算子または文字が含まれています。</value>
+  </data>
+  <data name="IP001" xml:space="preserve">
+    <value>IP001：画像辞書を作成しました。</value>
+  </data>
+  <data name="IP002" xml:space="preserve">
+    <value>IP002：※定義式内には以下の演算子が扱えます。
+&amp;（文字列結合演算子）</value>
+  </data>
+  <data name="IP003" xml:space="preserve">
+    <value>IP003：※定義式内には以下の演算子が扱えます。
+&amp;（文字列結合演算子）、－（日付減算演算子）</value>
+  </data>
+  <data name="IP004" xml:space="preserve">
+    <value>IP004：※定義式内には以下の演算子が扱えます。
+&amp;（文字列結合演算子）、－（時間減算演算子）</value>
+  </data>
+  <data name="IP005" xml:space="preserve">
+    <value>IP005：CSVを出力しました</value>
+  </data>
+  <data name="IP006" xml:space="preserve">
+    <value>IP006：{0}_{1} の「{2}」確信度は「{3}」です。</value>
+  </data>
+  <data name="IP007" xml:space="preserve">
+    <value>IP007：{0}_{1}のバーコードを認識します。</value>
+  </data>
+  <data name="IP008" xml:space="preserve">
+    <value>IP008：{0}_{1}のバーコード認識結果は「{2}」です。</value>
+  </data>
+  <data name="IP009" xml:space="preserve">
+    <value>IP009：{0}_{1}のOCR項目を認識します。</value>
+  </data>
+  <data name="IP010" xml:space="preserve">
+    <value>IP010：{0}_{1}のOCR項目認識結果は「{2}」です。</value>
+  </data>
+  <data name="IP011" xml:space="preserve">
+    <value>IP011：{0}_{1}を「{2}」と識別しました。</value>
+  </data>
+  <data name="IP012" xml:space="preserve">
+    <value>IP012：帳票取得が不完全なデータが存在します。シーケンスフォルダを削除して処理を再開します。</value>
+  </data>
+  <data name="IP013" xml:space="preserve">
+    <value>IP013：シーケンスフォルダ（{0}）を削除しました。</value>
+  </data>
+  <data name="IP014" xml:space="preserve">
+    <value>IP014：帳票認識が不完全なデータが存在します。帳票画像を削除して処理を再開します。</value>
+  </data>
+  <data name="IP015" xml:space="preserve">
+    <value>IP015：項目画像（{0}）を削除しました。</value>
+  </data>
+  <data name="T000" xml:space="preserve">
+    <value>T000：{0}</value>
+  </data>
+  <data name="T001" xml:space="preserve">
+    <value>T001：</value>
+  </data>
+  <data name="T002" xml:space="preserve">
+    <value>T002：</value>
+  </data>
+  <data name="T003" xml:space="preserve">
+    <value>T003：</value>
+  </data>
+  <data name="T004" xml:space="preserve">
+    <value>T004：</value>
+  </data>
+  <data name="T005" xml:space="preserve">
+    <value>T005：</value>
+  </data>
+  <data name="T006" xml:space="preserve">
+    <value>T006：DBデータ/ログ削除処理を実行します。</value>
+  </data>
+  <data name="T007" xml:space="preserve">
+    <value>T007：操作ログファイルを削除します。</value>
+  </data>
+  <data name="T008" xml:space="preserve">
+    <value>T008：帳票認識ログファイルを削除します。</value>
+  </data>
+  <data name="T009" xml:space="preserve">
+    <value>T009：保存済みデータを削除します。</value>
+  </data>
+  <data name="T010" xml:space="preserve">
+    <value>T010：DBデータ/ログ削除処理を完了しました。</value>
+  </data>
+  <data name="T011" xml:space="preserve">
+    <value>T011：DBデータ/ログ削除処理を完了しました。(異常あり)</value>
+  </data>
+</root>

@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93AE8D2E-247F-4260-8DCB-3DB81564D0EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OCRSDKTest</RootNamespace>
+    <AssemblyName>OCRSDKTestTool</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CanvasPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CanvasPicture2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="Counter.cs" />
+    <Compile Include="DoOcrExceuteResult.cs" />
+    <Compile Include="DoOcrSDK.cs" />
+    <Compile Include="EnumNames.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnumNames.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EraceParamSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EraceParamSetting.Designer.cs">
+      <DependentUpon>EraceParamSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frame.cs" />
+    <Compile Include="frmBarcodeCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarcodeCreator.Designer.cs">
+      <DependentUpon>frmBarcodeCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSDKTestMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSDKTestMain.Designer.cs">
+      <DependentUpon>frmSDKTestMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridPicture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LockBitmap.cs" />
+    <Compile Include="OCRExecFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OCRExecFrm.Designer.cs">
+      <DependentUpon>OCRExecFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OcrExecuteResult.cs" />
+    <Compile Include="OcrSDK.cs" />
+    <Compile Include="PointBmp.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QRBarcodeReader.cs" />
+    <Compile Include="RectCrossInfo.cs" />
+    <Compile Include="SDKArea.cs" />
+    <Compile Include="SDKCandidate.cs" />
+    <Compile Include="SDKResult.cs" />
+    <Compile Include="SDKTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SDKTest.Designer.cs">
+      <DependentUpon>SDKTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableEraser.cs" />
+    <Compile Include="TiffCreator.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="XorGriphics.cs" />
+    <Compile Include="ZoomedGriphics.cs" />
+    <Compile Include="ZoomPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZoomPanel.Designer.cs">
+      <DependentUpon>ZoomPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CanvasPicture.resx">
+      <DependentUpon>CanvasPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanvasPicture2.resx">
+      <DependentUpon>CanvasPicture2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnumNames.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EnumNames.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EraceParamSetting.resx">
+      <DependentUpon>EraceParamSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarcodeCreator.resx">
+      <DependentUpon>frmBarcodeCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSDKTestMain.resx">
+      <DependentUpon>frmSDKTestMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OCRExecFrm.resx">
+      <DependentUpon>OCRExecFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SDKTest.resx">
+      <DependentUpon>SDKTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZoomPanel.resx">
+      <DependentUpon>ZoomPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\伝匠\02.Projects\03.DocumentSDK\DoOcrSDKComponent\DoOcrSDKComponent.vcxproj">
+      <Project>{7596203a-3cc8-487c-afd4-6a6a29f72996}</Project>
+      <Name>DoOcrSDKComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\伝匠\02.Projects\03.DocumentSDK\DoOcrSDKInterface\DoOcrSDKInterface.vcxproj">
+      <Project>{86be95b5-ca9c-4bf6-a7ed-6a40f8f061cf}</Project>
+      <Name>DoOcrSDKInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\伝匠\02.Projects\03.DocumentSDK\FormSDKComponent\FormSDKComponent.vcxproj">
+      <Project>{5c751e40-4a12-4fbc-9abd-cb10c7cd719d}</Project>
+      <Name>FormSDKComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\伝匠\02.Projects\03.DocumentSDK\FormSDKInterface\FormSDKInterface.vcxproj">
+      <Project>{5587acc7-96e6-4d67-903a-ee3c799c4d7a}</Project>
+      <Name>FormSDKInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Lib\Base\Source\lib\zxing.NET461.csproj">
+      <Project>{24074395-0196-4204-b516-cb6dba2fc4b9}</Project>
+      <Name>zxing.NET461</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\02.Libs\DenshowNativeCommon\DenshowNativeCommon.vcxproj">
+      <Project>{fe1354b2-2c8a-4e06-8c84-5fc8f5124b86}</Project>
+      <Name>DenshowNativeCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\DocumentSDKCommon\DocumentSDKCommon.vcxproj">
+      <Project>{ec2da998-9548-4440-ba9d-01e96901cb6c}</Project>
+      <Name>DocumentSDKCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\DocumentSDKComponent\DocumentSDKComponent.vcxproj">
+      <Project>{1a3ba818-4ebe-4427-bf01-6f71be3d6960}</Project>
+      <Name>DocumentSDKComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\DocumentSDKInterface\DocumentSDKInterface.vcxproj">
+      <Project>{5cff9c2c-d1b2-4455-9577-75b2c72a4739}</Project>
+      <Name>DocumentSDKInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\HocrSDKComponent\HocrSDKComponent.vcxproj">
+      <Project>{74575cb9-e28a-4191-9543-d60d71ecc75e}</Project>
+      <Name>HocrSDKComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\HocrSDKInterface\HocrSDKInterface.vcxproj">
+      <Project>{83ebf6c9-58ac-467c-95a3-379b4ce86473}</Project>
+      <Name>HocrSDKInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\JocrSDKComponent\JocrSDKComponent.vcxproj">
+      <Project>{349b89f6-380b-4607-bd79-9784075c2fe0}</Project>
+      <Name>JocrSDKComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\伝匠\02.Projects\03.DocumentSDK\JocrSDKInterface\JocrSDKInterface.vcxproj">
+      <Project>{5567d65d-357a-4007-8b8c-e16a1f41eeb8}</Project>
+      <Name>JocrSDKInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

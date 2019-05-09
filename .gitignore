@@ -1,0 +1,16 @@
+# Build Folder
+[Bb]in/
+[Oo]bj/
+[Bb]ackup/
+[xX]64/
+[Dd]ebug/
+[Rr]elese/
+[Zz]Xing.*/
+[Bb]ase/
+
+# temp files
+*.pdb
+*.xml
+.vs/
+*.htm
+*.VC.db
